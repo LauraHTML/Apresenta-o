@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oi&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    background-color: #c0ff90 !important;
+}
+
+
+.link{
+    text-decoration:  #7c62ff wavy underline;
+    color: #000000;
+}
+.link:hover{
+    text-decoration: rgb(255, 255, 255) wavy underline;
+    transition-duration: 0.5s
+}
+
+.link-f{
+    text-decoration:  #222222 wavy underline;
+    color: #fff; 
+}
+.link-f:hover{
+    text-decoration: #fff wavy underline;
+    transition-duration: 0.5s
+}
+
+.fa-figma{
+    font-size: 5vh;
+}
+p{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0vh;
+}
+li{
+    border: solid #222222 0.5vh; 
+    padding: 2vh; 
+    height: 9vh;
+}
+
+h3{
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h4{
+font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;  
+  margin-top: 2vh !important;
+}
+
+nav{
+    color: #fff;
+    background-color: #222222;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    height:15vh;
+    padding: 3vh;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav li:hover{
+    border: #fff solid 0.5vh;
+    border-radius: 2vh;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 10vh;
+}
+.container{
+    display: flex;
+}
+
+.fundo{
+    border: #222222 solid 0.25vh;
+    background-color: #7c62ff;
+    border-radius: 3vh;
+    margin: 5vh;
+}
+.informacoes{
+    padding: 4vh;
+    width: 30%;
+    height: auto;
+}
+.foto{
+    width: 10vh;
+}
+.contato{
+    border-radius: 2vh;
+    background-color: #222222;
+    height: auto;
+    width: 25vh;
+    padding: 2vh;
+    margin: 1vh 0vh 3vh;
+    display: flex;
+    color: #fff;
+}
+.contato p{
+    margin: 0vh;
+}
+.contato ul{
+    padding: 0vh;
+}
+.contato a{
+    color: #fff !important;
+}
+.contato .bi{
+    color: #fff;
+    margin: 1vh;
+}
+.tamanho{
+    width: fit-content;
+}
+
+.resumo{
+    width: 70%;
+    height: auto;
+    padding: 4vh;
+}
+
+.formacao{
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.formacao .formacao-content{
+    border: #222222 solid 0.25vh;
+    border-radius: 3vh;
+    padding: 2vh;
+    box-shadow: 1vh 1vh #222222;
+}
+
+.senai{
+    background-color: #ff90f0;
+    width: fit-content;
+}
+
+.lgpd{
+    background-color: #ffee6d;
+    height: fit-content;
+}
+
+.g5{
+    background-color: #c0ff90;
+    width: fit-content;
+}
+
+.alura{
+    background-color: #f7c267;
+    width: fit-content;
+}
+
+.progress{
+    border: #222222 solid 0.25vh;
+    margin: 3vh;
+    background-color: #222222 !important;
+}
+.progress-bar{
+    background-color: #fff !important;
+}
+
+.content{
+    margin: 3vh 3vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    transition: all 0.5s;
+    height: 7rem;
+    width: fit-content;
+    background-color: #7c62ff;
+    padding: 1vh 4vh 2vh 2vh;
+    border-radius: 3vh;
+    border: #222222 solid 0.25vh;
+}
+.box:hover{
+    box-shadow: 1vh 1vh #222222;
+}
+
+.box .box-content{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+#ilus{
+    background-color: #ff90f0;
+    padding: 1vh;
+    border-radius: 4vh;
+    border: #222222 solid 0.25vh;;
+}
+
+#programacao{
+    background-color: #c0ff90;
+    color: #222222;
+    padding: 1vh;
+    border-radius: 4vh;
+    border: #222222 solid 0.25vh;;
+}
+
+#jogos{
+    background-color: #222222;
+    color: #fff;
+    padding: 1vh;
+    border-radius: 4vh;
+    border: #222222 solid 0.25vh;;
+}
+
+footer{
+    background-color: #222222;
+    color: #fff;
+    height:15vh;
+    padding: 6vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    padding: 3vh;
+}
+
+@media(max-width:390px){
+
+    body{
+        background-color: #e10000;
+    }    
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resumo{
+        width: 100%;
+        height: auto;
+        padding: 4vh;
+    }
+    .informacoes{
+        padding: 4vh;
+        width: 100%;
+        height: auto;
+    }
+
+    .formacao{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+}

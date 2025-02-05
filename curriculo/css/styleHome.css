@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+ 
+.cabeçalho{
+    width: 100%;
+    height: 90px;
+    background-color: #FDD900;
+   
+}
+
+ 
+.cabeçalho p{
+    display: flex;
+    font-size: large;
+    margin-left: 80px;
+}
+ 
+.cabeçalho a.logo img{
+    margin-top: 15px;
+}
+ 
+.header a.logo:hover{
+    background-color: #FDD900;
+}
+ 
+.header a.active {
+    background-color: #FDD900;
+    color:   rgb(255, 243, 243)(243, 26, 26);
+    ;
+}
+ 
+ 
+.cabeçalho-right {
+    float: right;
+    margin-top: 35px;
+ 
+}
+ 
+.cabeçalho a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 10px;
+   
+ 
+}
+ 
+.cabeçalho a.text:hover {
+    color: #FDD900;
+    background-color: #000000;
+    border-radius: 5px;
+    height: 400px;
+    transition: 0.5s;
+}
+ 
+ 
+.pesquisa{
+    float: right;
+}
+ 
+.pesquisa input{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #ffffff;
+}
+ 
+ 
+.box1{
+    height: 320px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.box1:hover{
+    box-shadow: gray 5px 5px 5px;
+}
+.box1 img{
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.box1 h4{
+    line-height: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.box1 h3{
+    line-height: 15px;
+    text-align: center;
+    margin-top: 35px;
+}
+.box2{
+    height: 30px;
+    width: 160;
+    background-color: #fdd900;
+    margin-left: 20px;
+    margin-bottom: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                              
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.box2 p{
+    line-height: 25px;
+    text-align: center;
+}
+.box_principal{
+    width: 80%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 135px;
+    background-color:#ffffff ;
+    margin-bottom: 50px;
+}
+ 
+ 
+.maisvendidos h1{
+    margin-top: 20px;
+    text-align: center;
+    background-color:#FDD900;
+    color: #000000;
+    font-family: font-weight 800;
+}
+ 
+ 
+ 
+.rodapé{
+    background-color: #FEDC00;
+    width: 100%;
+    height: 380px;
+    padding-left: 50px;
+}
+
+.boxrodapé{
+    width: 290px;
+    height: 340px;
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.imgrodapé{
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-left: 2px;
+}
+
+.formapagamento{
+    width: 350px;
+    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.redesocial img{
+    margin-left: 10px;
+}
+.redesocial img:hover{
+  transform: scale(1.2);
+}
